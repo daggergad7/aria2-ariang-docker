@@ -4,7 +4,7 @@ RUN apk add --no-cache git openssh
 
 WORKDIR /app
 
-RUN git clone https://github.com/wahyd4/forego.git \
+RUN git clone https://github.com/ddollar/forego.git \
     && cd forego \
     && go mod init \
     && go mod vendor \
