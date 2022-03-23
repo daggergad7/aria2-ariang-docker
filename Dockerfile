@@ -6,7 +6,6 @@ WORKDIR /app
 
 RUN git clone https://github.com/wahyd4/forego.git \
     && cd forego \
-    && git checkout 20180216151118 \
     && go mod init \
     && go mod vendor \
     && go mod download \
